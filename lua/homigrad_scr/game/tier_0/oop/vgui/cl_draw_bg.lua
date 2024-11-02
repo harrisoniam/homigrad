@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local SetMaterial = surface.SetMaterial
 local DrawTexturedRectUV = surface.DrawTexturedRectUV
 
@@ -141,7 +140,6 @@ function draw.BGEx(x,y,w,h,sx,sy,scale)
 	sy = sy and sy / 4096 or 0
 
 	DrawTexturedRectUV(x,y,w,h,sx,sy,w / scale + sx,h / scale + sy)
-end
 end
 
 /*local size = 64

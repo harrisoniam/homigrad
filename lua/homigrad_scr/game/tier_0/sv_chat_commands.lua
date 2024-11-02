@@ -1,5 +1,4 @@
 COMMANDS = COMMANDS or {}
-if engine.ActiveGamemode() == "homigrad" then
 function COMMAND_FAKEPLYCREATE()
 	local fakePly = {}
 
@@ -298,4 +297,3 @@ COMMANDS.submat = {function(ply,args)
 		ply:SetSubMaterial(tonumber(args[1],10),args[2])
 	end
 end}
-end

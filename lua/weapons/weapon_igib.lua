@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "InstaGib Grenade Launcher"
@@ -69,5 +68,3 @@ function SWEP:PrimaryAttack()
 end
 --models/weapons/insurgency/w_rpg7.mdl
 --models/weapons/insurgency/w_rpg7_projectile.mdl
-
-end

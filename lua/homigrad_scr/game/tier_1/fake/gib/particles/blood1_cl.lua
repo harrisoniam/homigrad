@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 bloodparticels1 = bloodparticels1 or {}
 local bloodparticels1 = bloodparticels1
 
@@ -63,5 +62,4 @@ bloodparticels_hook[2] = function(mul)
 
         part[3]:Add(vecDown)
     end
-end
 end

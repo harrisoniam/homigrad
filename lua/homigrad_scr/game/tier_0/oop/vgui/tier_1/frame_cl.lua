@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Reg("v_frame","v_panel")
 if not PANEL then return end
 
@@ -55,8 +54,6 @@ end
 
 function PANEL:IsActive()
     return self:HasFocus() or vgui.FocusedHasParent(self)
-end
-
 end
 
 /*timer.Simple(0,function()

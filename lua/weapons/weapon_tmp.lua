@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "TMP"
@@ -64,4 +63,3 @@ SWEP.dwmARight = 0
 SWEP.dwmAForward = 0
 
 SWEP.SightPos = Vector(-25,1.85,-0.2)
-end

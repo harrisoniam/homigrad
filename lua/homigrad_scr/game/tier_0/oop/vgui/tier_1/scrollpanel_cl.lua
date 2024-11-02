@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Reg("v_scrollpanel","v_panel")
 if not PANEL then return end
 
@@ -201,34 +200,3 @@ PANEL:Event_Add("Mouse Wheel","Main",function(self,wheel,ignore)
         self.ScrollSetY = self.ScrollSetY + wheel
     end
 end)
-end
-/*timer.Simple(0,function()
-    if IsValid(testPanel) then testPanel:Remove() end
-
-    testPanel = vgui.XCreate("v_frame")
-    testPanel.ww = 250
-    testPanel.hh = 250
-    testPanel.dx = 0.5
-    testPanel.dy = 0.5
-    testPanel.ax = 0.5
-    testPanel.ay = 0.5
-    testPanel:MakePopup()
-
-    local scrollPanel = vgui.XCreate("v_scrollpanel",testPanel)
-    scrollPanel.dw = 0.9
-    scrollPanel.dh = 0.8
-    scrollPanel.dx = 0.5
-    scrollPanel.dy = 0.5
-    scrollPanel.ax = 0.5
-    scrollPanel.ay = 0.5
-    scrollPanel.ScrollX = 0
-    scrollPanel.ScrollY = 0
-
-    local button = vgui.XCreate("v_button",scrollPanel)
-    button.ww = 50
-    button.hh = 50
-    button.xx = 512
-    button.yy = 512
-
-    testPanel:Transform()--always need
-end)*/

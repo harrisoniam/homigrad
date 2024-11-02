@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 SWEP.PrintName = "Knife"
 SWEP.Instructions = "A pretty nifty looking knife, although you probably dont want to be seen with it."
 SWEP.Category = "Melee"
@@ -226,5 +224,4 @@ function SWEP:Reload()
 end
 
 function SWEP:Think()
-end
 end

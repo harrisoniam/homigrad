@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 include("shared.lua")
 
 local healsound = Sound("Underwater.BulletImpact")
@@ -11,4 +10,4 @@ function SWEP:Heal(ply)
     ply:EmitSound(healsound)
 
     return true
-end end
+end

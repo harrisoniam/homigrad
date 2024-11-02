@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local SetMaterial = surface.SetMaterial
 local DrawTexturedRect = surface.DrawTexturedRect
 
@@ -20,5 +19,4 @@ end
 
 function draw.Figure(x,y,w,h)
     DrawTexturedRect(x,y,w,h)
-end
 end

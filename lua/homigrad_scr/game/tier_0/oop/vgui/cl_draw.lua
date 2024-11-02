@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local gradient_left = Material("homigrad/vgui/gradient_left.png")
 local gradient_right = Material("homigrad/vgui/gradient_right.png")
 local gradient_up = Material("homigrad/vgui/gradient_up.png")
@@ -40,5 +39,4 @@ function draw.Frame(x,y,w,h,color1,color2)
 
     DrawRect(x,y + h - 1,w,1)
     DrawRect(x + w - 1,y,1,h)
-end
 end

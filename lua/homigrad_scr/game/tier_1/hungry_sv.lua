@@ -1,4 +1,4 @@
-if not engine.ActiveGamemode() == "homigrad" then return end
+
 local math_Clamp = math.Clamp
 
 hook.Add("Player Think","homigrad-hungry",function(ply,time)

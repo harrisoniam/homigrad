@@ -1,4 +1,4 @@
-if not engine.ActiveGamemode() == "homigrad" then return end
+
 COMMANDS.radio = {function(ply,args)
 	local radio = ents.Create("prop_physics")
 	radio:SetModel("models/props/cs_office/radio.mdl")

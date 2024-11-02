@@ -1,4 +1,4 @@
-if not engine.ActiveGamemode() == "homigrad" then return end
+
 local models = {
 	["models/player/combine_soldier_prisonguard.mdl"] = true,
 	["models/player/police.mdl"] = true,

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 if CLIENT then
 SWEP.DrawWeaponInfoBox	= false
 SWEP.BounceWeaponIcon = false
@@ -223,5 +222,4 @@ function SWEP:Reload()
 end
 
 function SWEP:Think()
-end
 end

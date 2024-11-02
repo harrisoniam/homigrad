@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base 
 
 SWEP.PrintName 				= "PPSh-41"
@@ -55,4 +54,3 @@ SWEP.vbwAng = Angle(90,-30,0)
 SWEP.addAng = Angle(-0.25,1,6)
 
 SWEP.SightPos = Vector(-30,0.5,-0.05)
-end

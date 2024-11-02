@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local LIB = ents.Reg("lib_event")
 if not LIB then return end
 
@@ -271,7 +270,6 @@ function LIB:Construct()
 	content:Event_Construct()
 
 	content:Event_CallNoSelf("Construct",self)
-end
 end--ну и хуета конешно
 
 --[[

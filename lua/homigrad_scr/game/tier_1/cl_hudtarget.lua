@@ -1,4 +1,4 @@
-if not engine.ActiveGamemode() == "homigrad" then return end
+
 nodraw_players = nodraw_players or {}
 
 hook.Add("Think","ShouldDrawNoclipe",function()

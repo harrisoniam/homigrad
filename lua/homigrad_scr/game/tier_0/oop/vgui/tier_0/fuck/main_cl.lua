@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Get("v_panel")
 if not PANEL then return end
 
@@ -18,7 +17,6 @@ PANEL:Event_Add("Draw","Main",function(self,w,h,color)
     draw.RoundedBox(0,0,0,w,h,main)
     draw.Frame(0,0,w,h,color.frame1,color.frame2)
 end)
-end
 
 /*timer.Simple(0,function()
     if IsValid(testPanel) then testPanel:Remove() end

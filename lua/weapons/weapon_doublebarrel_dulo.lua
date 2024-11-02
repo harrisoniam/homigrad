@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Double Barrel"
@@ -71,6 +70,4 @@ SWEP.SightPos = Vector(0,0.4,2.5)
 
 function SWEP:ApplyEyeSpray()
     self.eyeSpray = self.eyeSpray - Angle(4,math.Rand(-1.5,1.5),0)
-end
-
 end

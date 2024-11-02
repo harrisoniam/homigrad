@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "AT-4 RPG"
@@ -56,4 +55,3 @@ function SWEP:PrimaryAttack()
 end
 --models/weapons/insurgency/w_rpg7.mdl
 --models/weapons/insurgency/w_rpg7_projectile.mdl
-end

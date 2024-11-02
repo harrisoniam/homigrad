@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local copy
 copy = function(obj,seen)
 	if type(obj) ~= "table" then return obj end
@@ -196,5 +195,4 @@ function util.ConstructInTablePath(tbl,path)
 
 		i = i + 1
 	end
-end
 end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Get("v_panel")
 if not PANEL then return end
 
@@ -74,5 +73,4 @@ end
 
 function PANEL:Color_Lerp(name,lerp)
     self.colorList[name][1] = lerp
-end
 end

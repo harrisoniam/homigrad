@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 AddCSLuaFile()
 
 SWEP.Base = "medkit"
@@ -80,5 +79,4 @@ if CLIENT then
 
         model:DrawModel()
     end
-end
 end

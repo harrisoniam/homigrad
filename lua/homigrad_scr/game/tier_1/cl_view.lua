@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 local t = {}
 local n, e, r, o
 local d = Material('materials/scopes/scope_dbm.png')
@@ -843,4 +841,3 @@ hook.Add("PostDrawTranslucentRenderables","fuck_off",function()
 		end
 	end--]]
 end )
-end

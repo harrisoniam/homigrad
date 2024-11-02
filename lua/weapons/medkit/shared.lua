@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 AddCSLuaFile()
 
 SWEP.Base = "weapon_base"
@@ -101,4 +100,3 @@ end
 
 function SWEP:PrimaryAttack() end
 function SWEP:SecondaryAttack() end
-end

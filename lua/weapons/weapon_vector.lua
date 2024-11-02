@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "KRISS Vector"
@@ -48,5 +47,3 @@ SWEP.vbwAng = Angle(15,10,0)
 
 
 SWEP.SightPos = Vector(-22,4,-0.25)
-
-end

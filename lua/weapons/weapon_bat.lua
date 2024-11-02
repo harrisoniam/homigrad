@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 SWEP.PrintName = "Baseball Bat"
 
 SWEP.Category = "Melee"
@@ -249,5 +247,4 @@ function SWEP:Reload()
 end
 
 function SWEP:Think()
-end
 end

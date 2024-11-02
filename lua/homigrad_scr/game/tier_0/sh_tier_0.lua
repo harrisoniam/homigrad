@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local queue = {}
 hg.prechachesound = hg.prechachesound or {}
 
@@ -165,4 +164,3 @@ end
 function util.safeDiv(a,b)
 	if a == 0 and b == 0 then return 0 else return a / b end
 end--pizdes
-end

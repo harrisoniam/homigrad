@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local ENT,CLASS = ents.Reg("base_entity","lib_event")
 if not ENT then return end
 
@@ -12,4 +11,3 @@ ENT:Event_Add("Construct","register",function(class)
 
     scripted_ents.Register(content,content.ClassName)
 end)
-end

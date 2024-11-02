@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 SWEP.PrintName = "Police Baton"
 SWEP.Instructions = "There's no such thing as excessive force."
 SWEP.Category = "Melee"
@@ -208,5 +206,4 @@ function SWEP:Reload()
 end
 
 function SWEP:Think()
-end
 end

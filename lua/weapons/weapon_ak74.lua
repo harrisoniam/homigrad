@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Minigun"
@@ -74,4 +73,3 @@ function SWEP:PrimaryAttack()
 end
 
 SWEP.vbwPos = Vector(-4,-4,4)
-end

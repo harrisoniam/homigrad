@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 include("shared.lua")
 
 local healsound = Sound("snds_jack_gmod/ez_medical/15.wav")
@@ -11,4 +10,4 @@ function SWEP:Heal(ent)
     ent:EmitSound(healsound)
 
     return true
-end end
+end

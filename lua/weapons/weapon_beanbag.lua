@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Remington870 Police"
@@ -57,4 +56,3 @@ SWEP.addAng = Angle(0.1,0,2)
 SWEP.addPos = Vector(0,0,0)
 
 SWEP.SightPos = Vector(-40,1.95,-0.6)
-end

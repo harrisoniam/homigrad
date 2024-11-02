@@ -1,4 +1,4 @@
-if not engine.ActiveGamemode() == "homigrad" then return end
+
 util.AddNetworkString("sound")
 function sound.Emit(ent,sndName,level,volume,pitch,ignorePly,dsp)
     net.Start("sound")

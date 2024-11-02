@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 event = event or {}
 local event = event
 
@@ -186,5 +185,4 @@ function event.Call12(class,callback1,callback2,...)
 
 		goto loop
 	end
-end
 end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local grtodown = Material( "vgui/gradient-u" )
 local grtoup = Material( "vgui/gradient-d" )
 local grtoright = Material( "vgui/gradient-l" )
@@ -134,5 +133,3 @@ hook.Add("RenderScreenspaceEffects","renderimpulse",function()
         DrawCA(4 * offset, 2 * offset, 0, 2 * offset, 1 * offset, 0)
     end--]]
 end)
-
-end

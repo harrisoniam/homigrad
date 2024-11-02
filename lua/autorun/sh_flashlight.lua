@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 if CLIENT then
 	local vecUp = Vector(0,0,50)
 
@@ -565,5 +564,4 @@ else
 		net.Start("video stop")
 		net.Broadcast()
 	end,2}
-end
 end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 bloodparticels2 = bloodparticels2 or {}
 local bloodparticels = bloodparticels2
 
@@ -62,5 +61,4 @@ bloodparticels_hook[4] = function(mul)
 
         part[3] = LerpVector(0.5 * mul,part[3],vecZero)
     end
-end
 end

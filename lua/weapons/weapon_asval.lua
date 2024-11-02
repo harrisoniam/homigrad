@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "AS-VAL"
@@ -57,4 +56,3 @@ SWEP.Supressed = true
 
 
 SWEP.SightPos = Vector(-32,1.8,-0.45)
-end

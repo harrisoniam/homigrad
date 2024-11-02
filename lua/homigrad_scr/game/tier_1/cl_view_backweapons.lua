@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 PickTable = {}
 PickLerp = {}
 --[[hook.Add( "HUDWeaponPickedUp", "WeaponPickedUp", function( weapon )
@@ -319,4 +318,4 @@ end
 
 local white = Color(255,255,255)
 DrawWeaponSelection = function(self,x,y,w,h,alpha) DrawWeaponSelectionEX(self,x,y,w,h + 35,alpha) end
-OverridePaintIcon = function(self,x,y,w,h,obj) DrawWeaponSelectionEX(obj,x + 5,y + 5,w - 10,h - 30) end end
+OverridePaintIcon = function(self,x,y,w,h,obj) DrawWeaponSelectionEX(obj,x + 5,y + 5,w - 10,h - 30) end

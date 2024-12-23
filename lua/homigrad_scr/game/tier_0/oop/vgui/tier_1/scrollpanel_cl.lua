@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Reg("v_scrollpanel","v_panel")
 if not PANEL then return end
 
@@ -201,7 +200,6 @@ PANEL:Event_Add("Mouse Wheel","Main",function(self,wheel,ignore)
         self.ScrollSetY = self.ScrollSetY + wheel
     end
 end)
-end
 /*timer.Simple(0,function()
     if IsValid(testPanel) then testPanel:Remove() end
 

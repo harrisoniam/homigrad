@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local util_JSONToTable = util.JSONToTable
 local util_TableToJSON = util.TableToJSON
 
@@ -14,5 +13,4 @@ end
 
 function SData_Set(name,value)
     return file_Write("homigrad/sdata/" .. name .. ".txt",value or "")
-end
 end

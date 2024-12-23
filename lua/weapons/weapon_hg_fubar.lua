@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Fubar"
@@ -49,4 +48,3 @@ SWEP.FlashHitSound = "weapons/melee/flesh_impact_blunt_03.wav"
 SWEP.ShouldDecal = false
 SWEP.HoldTypeWep = "melee2"
 SWEP.DamageType = DMG_CLUB
-end

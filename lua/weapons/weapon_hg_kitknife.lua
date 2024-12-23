@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = "weapon_hg_melee_base"
 
 SWEP.PrintName = "Kitchen Knife"
@@ -49,4 +48,3 @@ SWEP.FlashHitSound = "snd_jack_hmcd_slash.wav"
 SWEP.ShouldDecal = true
 SWEP.HoldTypeWep = "melee"
 SWEP.DamageType = DMG_SLASH 
-end

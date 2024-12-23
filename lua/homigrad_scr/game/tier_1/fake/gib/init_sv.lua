@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() ~= "homigrad" then return end
+
 local vecZero = Vector(0,0,0)
 local vecInf = Vector(1,1,1) / 0
 

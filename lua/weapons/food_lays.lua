@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'weapon_base'
 AddCSLuaFile()
 
@@ -123,9 +122,4 @@ function SWEP:PrimaryAttack()
 		sound.Play(healsound, self:GetPos(),75,100,0.5)
 		self:GetOwner():SelectWeapon("weapon_hands")
 	end
-end
-
-function SWEP:SecondaryAttack()
-end
-
 end

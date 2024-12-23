@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 oop = oop or {}--sasi
 --эт лиш регистрация классов
 
@@ -154,4 +153,3 @@ ents.RegEx = oop.RegEx
 ents.Reg = oop.Reg
 ents.RegConnect = oop.RegConnect
 ents.Get = oop.Get
-end

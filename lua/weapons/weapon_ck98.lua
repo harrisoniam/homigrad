@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Mauser K98"
@@ -56,4 +55,3 @@ SWEP.addAng = Angle(0,-0.2,0)
 SWEP.addPos = Vector(0,0,0)
 
 SWEP.SightPos = Vector(-32,1.6,0.04)
-end

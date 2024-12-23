@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 local function add(path)
     local files,dirs = file.Find("addons/homigrad/materials/" .. path .. "*","GAME")
 
@@ -15,4 +13,3 @@ local function add(path)
 end
 
 add("")
-end

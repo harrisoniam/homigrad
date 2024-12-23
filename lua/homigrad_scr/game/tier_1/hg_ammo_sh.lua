@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 local ammotypes = {
     ["556x45mm"] = {
         name = "5.56x45 mm",

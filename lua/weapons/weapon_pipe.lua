@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
-
 SWEP.PrintName = "Lead Pipe"
 SWEP.Instructions = "Taken off from a nearby wall."
 SWEP.Category = "Melee"
@@ -246,5 +244,4 @@ if CLIENT then
 
 		WorldModel:DrawModel()
 	end
-end
 end

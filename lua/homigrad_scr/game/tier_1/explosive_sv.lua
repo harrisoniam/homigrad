@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 local function BoomBig(ent)
     local SelfPos,PowerMult = ent:LocalToWorld(ent:OBBCenter()),4
 

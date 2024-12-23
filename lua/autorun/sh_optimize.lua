@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local meta = FindMetaTable("Entity")
 
 local GetOwner = meta.GetOwner
@@ -45,6 +44,4 @@ function meta:__index(key)
 	-- This needs to be retired, just like self.Entity was.
 
 	if key == "Owner" then return GetOwner(self) end
-end
-
 end

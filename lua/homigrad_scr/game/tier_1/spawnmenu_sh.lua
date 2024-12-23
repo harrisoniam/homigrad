@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local validUserGroup = {
 	--meagsponsor = true,
 	--megapenis = true
@@ -66,5 +65,4 @@ else
 
     hook.Add("ContextMenuOpen", "hide_spawnmenu",CanUseSpawnMenu)
     hook.Add("SpawnMenuOpen", "hide_spawnmenu",CanUseSpawnMenu)
-end
 end

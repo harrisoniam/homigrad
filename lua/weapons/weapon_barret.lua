@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'weapon_scout' -- base
 
 SWEP.PrintName 				= "Barret"
@@ -53,4 +52,3 @@ SWEP.addAng = Angle(-5,0,-90)
 SWEP.addPos = Vector(-14,-0.7,-0.5)
 
 SWEP.SightPos = Vector(-58, -1, -8.9)--Vector(-60, -0.68, -5.4)
-end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 if SERVER then
 	AddCSLuaFile()
 	SWEP.Weight = 5
@@ -714,4 +713,4 @@ if CLIENT then
 
 		return pos, ang
 	end
-end end
+end

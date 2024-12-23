@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local fps = 1 / 24
 local delay = 0
 
@@ -23,4 +22,3 @@ hook.Add("PostDrawOpaqueRenderables","bloodpartciels",function()
 	bloodparticels_hook[1](animpos)
 	bloodparticels_hook[3](animpos)
 end)
-end

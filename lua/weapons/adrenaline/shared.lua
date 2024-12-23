@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 AddCSLuaFile()
 
 SWEP.Base = "medkit"
@@ -31,4 +30,3 @@ SWEP.dwmUp = 0
 SWEP.dwmAUp = 0
 SWEP.dwmARight = 90
 SWEP.dwmAForward = 0
-end

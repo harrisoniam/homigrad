@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 util.AddNetworkString("inventory")
 util.AddNetworkString("ply_take_item")
 util.AddNetworkString("ply_take_ammo")

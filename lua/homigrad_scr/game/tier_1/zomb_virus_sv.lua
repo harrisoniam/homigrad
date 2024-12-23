@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 COMMANDS = COMMANDS or {}
 
 

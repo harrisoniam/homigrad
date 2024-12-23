@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base 
 
 SWEP.PrintName 				= "RPK"
@@ -51,4 +50,3 @@ SWEP.WorldModel				= "models/pwb2/weapons/w_rpk.mdl"
 SWEP.addAng = Angle(0,-0.8,0.5)
 
 SWEP.SightPos = Vector(-36,4,-0.2)
-end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "XM8 LMG"
@@ -84,4 +83,3 @@ end
     return 1
 end
 SWEP.Recoil = 4*/
-end

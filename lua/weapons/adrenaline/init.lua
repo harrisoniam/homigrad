@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 include("shared.lua")
 
 local healsound = Sound("Underwater.BulletImpact")
@@ -9,5 +8,4 @@ function SWEP:Heal(ent)
     if not ent.adrenalineNeed and ent.adrenalineNeed > 4 then ent.adrenalineNeed = ent.adrenalineNeed + 1 end
 
     return true
-end
 end

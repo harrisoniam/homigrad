@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 local black = Color(0,0,0)
 
 net.Receive("radio_use",function(len,ply)

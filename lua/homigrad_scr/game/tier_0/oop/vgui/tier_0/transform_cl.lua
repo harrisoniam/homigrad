@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Get("v_panel")
 if not PANEL then return end
 
@@ -166,4 +165,3 @@ function PANEL:TransformApplyAllTags()
 end
 
 PANEL:Event_Add("Think","Transform",PANEL.Transform,-1)
-end

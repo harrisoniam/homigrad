@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 include("shared.lua")
 SWEP.Base = "medkit"
 
@@ -138,5 +137,4 @@ function SWEP:Heal(ent)
 			ent:EmitSound(healsound1)
 		end
 	end
-end
 end

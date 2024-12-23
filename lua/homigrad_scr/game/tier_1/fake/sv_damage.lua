@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 hook.Add("PlayerSpawn","Damage",function(ply)
     if PLYSPAWN_OVERRIDE then return end
 
@@ -364,4 +363,3 @@ hook.Add("Player Death","plymessage",function(ply,hitgroup,dmginfo)
 		ply:ChatPrint("You died under mysterious circumstances.")
 	end
 end)
-end

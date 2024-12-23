@@ -1,4 +1,3 @@
-if engine.ActiveGamemode("homigrad") then
 AddCSLuaFile()
 
 hg = hg or {} --homigrad global table hihi
@@ -173,4 +172,4 @@ function hg.GetPath(levelUp)
 	end
 
 	return trace
-end end
+end

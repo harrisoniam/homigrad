@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local mats = {}
 for i = 1,8 do mats[i] = Material("decals/blood" .. i) end
 local countmats = #mats
@@ -142,4 +141,3 @@ hook.Add("PreCalcView","!",function(ply,pos,ang)
 
 	return view
 end)
-end

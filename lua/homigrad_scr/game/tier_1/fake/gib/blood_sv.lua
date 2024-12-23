@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 util.AddNetworkString("blood particle")
 util.AddNetworkString("blood particle more")
 util.AddNetworkString("blood particle explode")
@@ -30,5 +29,4 @@ function BloodParticleHeadshoot(pos,vel)
 	net.WriteVector(pos)
 	net.WriteVector(vel)
 	net.Broadcast()
-end
 end

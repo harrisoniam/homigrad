@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local LIB = ents.Reg("lib_event")
 if not LIB then return end
 
@@ -272,13 +271,3 @@ function LIB:Construct()
 
 	content:Event_CallNoSelf("Construct",self)
 end
-end--ну и хуета конешно
-
---[[
-	лутче избегать лишник калов, ну нахуй
-	тогда мне неты так же нужно делать раз я типо да ага
-	три заповеди блядь кек
-	event add
-	event remove
-	event call
-]]--20 09 2022 12 16: чего блядь...

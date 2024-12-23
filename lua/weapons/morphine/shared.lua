@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 AddCSLuaFile()
 
 SWEP.Base = "medkit"
@@ -30,5 +29,4 @@ function SWEP:vbwFunc(ply)
     local ent = ply:GetWeapon("medkit")
     if ent and ent.vbwActive then return self.vbwPos,self.vbwAng end
     return self.vbwPos2,self.vbwAng2
-end
 end

@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Reg("v_button","v_panel")
 if not PANEL then return end
 
@@ -60,7 +59,6 @@ PANEL:Event_Add("Mouse","Main",function(self,key,down,inSelf)
         self:Event_Call("Click",key)
     end
 end)
-end
 
 /*timer.Simple(0,function()
     if IsValid(testPanel) then testPanel:Remove() end

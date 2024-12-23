@@ -1,5 +1,3 @@
-if engine.ActiveGamemode() ~= "homigrad" then return end
-
 local PlayerMeta = FindMetaTable("Player")
 local EntityMeta = FindMetaTable("Entity")
 

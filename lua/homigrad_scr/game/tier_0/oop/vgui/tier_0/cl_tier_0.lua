@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 local PANEL = ents.Reg("v_panel","lib_event",true)
 if not PANEL then return INCLUDE_BREAK end
 
@@ -158,5 +157,4 @@ function PANEL:GetMousePos()
     local x,y = self:LocalToScreen(0,0)
 
     return x - MouseX(),y - MouseY()
-end
 end

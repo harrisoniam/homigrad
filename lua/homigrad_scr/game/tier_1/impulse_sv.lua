@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 --[[hook.Add("EntityTakeDamage","GainImpulse",function(ply,dmginfo)
 	local ply = RagdollOwner(ply) or ply
 	local dmg=dmginfo:GetDamage()

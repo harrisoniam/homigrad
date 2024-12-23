@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 local blackListedWeps = {
 	["weapon_hands"] = true
 }

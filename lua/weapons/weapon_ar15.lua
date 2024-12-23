@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "AR-15"
@@ -56,4 +55,3 @@ SWEP.vbwPos = Vector(-4,-4.2,1)
 SWEP.vbwAng = Angle(7,-30,0)
 
 SWEP.SightPos = Vector(-30,2.35,-0.3)
-end

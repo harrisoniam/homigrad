@@ -1,4 +1,4 @@
-if engine.ActiveGamemode() != "homigrad" then return end
+
 
 function SpawnWeapon(ply)
 	local weapon = ply.ActiveWeapon

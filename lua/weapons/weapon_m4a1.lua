@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'weapon_ar15' -- base
 
 SWEP.PrintName 				= "M4A1"
@@ -10,5 +9,3 @@ SWEP.Category 				= "Weapon"
 SWEP.Primary.Automatic		= true
 
 SWEP.ShootWait = 0.07
-
-end

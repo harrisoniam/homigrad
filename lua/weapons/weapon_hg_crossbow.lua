@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 SWEP.Base = 'salat_base' -- base
 
 SWEP.PrintName 				= "Crossbow"
@@ -64,5 +63,3 @@ SWEP.addPos = Vector(0,-1,0)
 SWEP.Efect = "PhyscannonImpact"
 SWEP.vbw = false
 SWEP.SightPos = Vector(-30,-1,-4.5)
-
-end

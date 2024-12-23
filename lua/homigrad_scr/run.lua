@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() ~= "homigrad" then return end
 AddCSLuaFile()
 
 print("	homigrad start.")

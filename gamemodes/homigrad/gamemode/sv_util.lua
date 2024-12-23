@@ -1,4 +1,3 @@
-if engine.ActiveGamemode() == "homigrad" then
 LimitAutoBalance = 1
 function NeedAutoBalance(addT,addCT)
 	addT = addT or 0
@@ -61,7 +60,7 @@ function PlayersInGame()
 
     return newTbl
 end
-end
+
 
 local EntityMeta = FindMetaTable("Entity")
 

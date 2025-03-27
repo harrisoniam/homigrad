@@ -1,5 +1,6 @@
 > [!CAUTION]
 > This Repository & Addon was made for Harrison's Homigrad Servers, which therefore contains commands and things that would only make sense from Harrison's Homigrad Servers. We strongly recommend not using this addon on your server as-is.
+> I will also no longer be supporting this project. Do not attempt to reach out to me regarding Garry's Mod or Homigrad.
 # What is Homigirad?
 Homigrad is a TTT/Murder-like gamemode that uses 'realistic' health and movement systems. There are several sub-modes that can be played, such as TDM, Deathmatch, and Hide and Seek.   
 
